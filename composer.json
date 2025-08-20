@@ -1,0 +1,22 @@
+{
+    "name": "devvir/laravel-resource-tools",
+    "description": "Provide tools to simplify and automate the usage of JsonResources",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "laravel/framework": "^12"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devvir\\ResourceTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Indart",
+            "email": "db.indart.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
