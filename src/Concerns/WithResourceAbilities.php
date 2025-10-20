@@ -4,9 +4,8 @@ namespace Devvir\ResourceTools\Concerns;
 
 trait WithResourceAbilities
 {
-    private array $abilities = [
-        'viewAny', 'view',
-        'create', 'update',
+    protected array $abilities = [
+        'view', 'update',
         'delete', 'restore', 'forceDelete',
     ];
 
