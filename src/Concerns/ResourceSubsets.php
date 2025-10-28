@@ -2,7 +2,7 @@
 
 namespace Devvir\ResourceTools\Concerns;
 
-use DragonCode\Support\Facades\Helpers\Arr;
+use Illuminate\Support\Arr;
 
 trait ResourceSubsets
 {
